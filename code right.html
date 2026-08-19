@@ -1,0 +1,105 @@
+<html>
+    <style>
+    .body{
+        background-color: #97969971;
+        padding: 50px;
+        text-align: Left;
+    
+    }
+    .box {
+        display: flex;
+        align-items: Center;
+        gap: 50px;
+    }
+    .author img {
+        width: 55px;
+        height: 55px;
+        border-radius: 0%;
+        object-fit: cover;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 100px;
+        background-color: #d0ced471;
+        padding: 0px;
+        margin: 0px;
+        justify-content: flex-end;
+    }  
+    .nav h1 {
+        margin-right: auto;
+    }
+    .h1 {
+        color: #000000;
+    }
+    .page-layout {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 40px;
+        max-width: 1100px;
+        margin: 40px auto;
+        padding: 0 24px;
+    }
+    .article-photo {
+        width: 100%;
+        max-width: 650px;
+        height: auto;
+    }
+    .related-post {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+    .related-post img {
+        width: 90px;
+        height: 70px;
+        object-fit: cover;
+    }
+    .related-post p {
+        margin: 0;
+    }
+   
+   
+    </style>
+<div class="header">
+    <nav class="nav">
+        <h1 class="h1"> 📘 The code magazine </h1>
+    <a href="#">Blog</a>
+    <a href="#">Challenges</a>
+    <a href="#">Flexbox</a>
+    <a href="#">CSS Grid</a>
+</nav>
+</div>
+<br>
+<br>
+<div class="author box">
+    <img src="https://claudionoggueira.github.io/code-magazine/img/laura-jones.jpg">
+    <p>Posted by Laura Jones on Monday, June 21st 2027</p>
+</div>
+<div class="page-layout">
+    <article>
+        <h1 class="h1">The Basic Language of the Web: HTML</h1>
+        <img class="article-photo" src="https://claudionoggueira.github.io/code-magazine/img/post-img.jpg" alt="HTML code on a laptop">
+        <p>All modern websites and web applications are built using three fundamental technologies: HTML, CSS and JavaScript.</p>
+        <p>In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it.</p>
+    </article>
+
+    <aside>
+        <h2 class="h1">Related posts</h2>
+        <div class="related-post">
+            <img src="https://claudionoggueira.github.io/code-magazine/img/related-1.jpg" alt="Person coding">
+            <p><strong>Learn Web Design</strong><br>By Jonas Schmedtmann</p>
+        </div>
+        <div class="related-post">
+            <img src="https://claudionoggueira.github.io/code-magazine/img/related-2.jpg" alt="Lightning bolt">
+            <p><strong>The Unknown Power of CSS</strong><br>By Jim Dillon</p>
+        </div>
+        <div class="related-post">
+            <img src="https://claudionoggueira.github.io/code-magazine/img/related-3.jpg" alt="JavaScript code">
+            <p><strong>Why JavaScript Is Awesome</strong><br>By Matilda</p>
+        </div>
+    </aside>
+</main>
+        
